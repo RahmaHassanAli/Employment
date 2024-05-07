@@ -1,0 +1,1 @@
+Implemented two microservices using Spring Boot and applied Docker containerization to ensure seamless deployment. Facilitated communication between the services through Kafka, utilizing Docker to containerize the Kafka setup for efficient orchestration.
