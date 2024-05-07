@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "90a509b9-a07e-4df5-9a70-3aff4b24825b",
+		"name": "admin-services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26664868"
+	},
+	"item": [
+		{
+			"name": "publish job",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"position\":\"front\",\r\n    \"description\":\"developer\",\r\n    \"qualification\":\"hard working\",\r\n    \"candidate_number\":\"4\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8082/admin/publishJob"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Job",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"position\":\"yarab\",\r\n    \"description\":\"developer\",\r\n    \"qualification\":\"hard working\",\r\n    \"candidate_number\":\"4\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8082/admin/updateJob/1"
+			},
+			"response": []
+		},
+		{
+			"name": "delete job",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8082/admin/deleteJob/1"
+			},
+			"response": []
+		}
+	]
+}

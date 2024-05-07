@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+topic:
+ name: t.job
+
+spring:
+  kafka:
+    bootstrap-servers: 'kafka:29092'
